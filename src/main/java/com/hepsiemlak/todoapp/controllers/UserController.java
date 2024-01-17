@@ -1,7 +1,6 @@
 package com.hepsiemlak.todoapp.controllers;
 
 import com.hepsiemlak.todoapp.business.abstracts.UserService;
-import com.hepsiemlak.todoapp.business.requests.RegisterUserRequest;
 import com.hepsiemlak.todoapp.business.responses.UserResponse;
 import com.hepsiemlak.todoapp.core.utilities.exceptions.UserNotFoundException;
 import com.hepsiemlak.todoapp.entities.concretes.User;
@@ -10,8 +9,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
-import java.util.List;
 
 @RestController
 @RequestMapping("users")
