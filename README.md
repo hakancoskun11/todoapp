@@ -16,6 +16,8 @@ Bu proje, Spring Boot ve JWT token tabanlı Spring Security kullanılarak geliş
     ```bash
     ./mvnw test
 
+    mvnw.cmd test (Windows makineler için)
+
 
 ## Uygulamayı Docker ile Çalıştırma
 
